@@ -10,6 +10,14 @@ This project provides a .NET backend API for managing student and course operati
 - **Authentication:** Secure endpoints with JWT tokens. Users can log in to receive a token, which is used to access protected resources.
 - **Token-Based Authentication:** The `AuthController` provides a login endpoint that returns a JWT token upon successful authentication.
 
+  
+  ![Alt Text](1.png)
+
+  ![Alt Text](2.png)
+
+  ![Alt Text](3.png)
+
+  
 ## API Endpoints
 
 ### Authentication
@@ -30,10 +38,12 @@ This project provides a .NET backend API for managing student and course operati
       "Token": "your-jwt-token"
     }
     ```
-
+  ![Alt Text](5.png)
 ### Testing
 
 The API endpoints have been tested using Postman to ensure proper functionality. Test cases include successful and failed login attempts, token generation, and protected resource access.
+
+ ![Alt Text](6.png)
 
 ## Project Setup
 
@@ -60,3 +70,5 @@ The API endpoints have been tested using Postman to ensure proper functionality.
 
    // Register other services and interfaces
    ```
+
+### And you are good to go :)
